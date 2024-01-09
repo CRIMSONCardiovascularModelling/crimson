@@ -5,247 +5,310 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>CRIMSON - Features</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" type="image/x-icon" href="/images/logo.ico">
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="no-sidebar is-preload">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<section id="header" class="wrapper">
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-W2D6SSKC');</script>
+	<!-- End Google Tag Manager -->
+	<title>CRIMSON - Features</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="icon" type="image/x-icon" href="/images/logo.ico">
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-					<!-- Logo -->
-						<div id="logo">
-							<h1><a href="index.html">CRIMSON</a></h1>
-							<p>An advanced simulation environment for subject-specific hemodynamic analysis</p>
-						</div>
+<body class="no-sidebar is-preload">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2D6SSKC"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<div id="page-wrapper">
 
-					<!-- Nav -->
-					<nav id="nav">
+		<!-- Header -->
+		<section id="header" class="wrapper">
+
+			<!-- Logo -->
+			<div id="logo">
+				<h1><a href="index.html">CRIMSON</a></h1>
+				<p>An advanced simulation environment for subject-specific hemodynamic analysis</p>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="features.html">Features</a>
 						<ul>
-							<li class="current"><a href="index.html">Home</a></li>
-							<li><a href="features.html">Features</a>
-								<ul>
-									<li><a href="#software_details">Software Details</a></li>
-								</ul>
-							</li>
-							<li><a href="download.html">Download</a></li>
-							<li><a href="documentation.html">Documentation</a>
-								<ul>
-									<li><a href="workshops.html">Workshops</a></li>
-									<li><a href="publications.html">Publications</a></li>
-								</ul>
-							</li>
-							<li><a href="team.html">Team</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="#software_details">Software Details</a></li>
 						</ul>
-					</nav>
+					</li>
+					<li><a href="download.html">Download</a></li>
+					<li><a href="documentation.html">Documentation</a>
+						<ul>
+							<li><a href="workshops.html">Workshops</a></li>
+							<li><a href="publications.html">Publications</a></li>
+						</ul>
+					</li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
 
-				</section>
+		</section>
 
-			<!-- Main -->
-				<div id="features" class="wrapper style2">
-					<div class="title">Features</div>
-					<div class="container">
+		<!-- Main -->
+		<div id="features" class="wrapper style2">
+			<div class="title">Features</div>
+			<div class="container">
 
-						<!-- Content -->
-							<div id="content">
-								<article class="box post">
-									<header class="style1">
-										<h2 id="gui_design">Modern GUI Design</h2>
-									</header>
-									<div class="row">
-										<div class="col-6 col-12-small">
-										<center>
-											<img src="images/gui.png" style="width:auto;max-width:100%" alt="" />
-										</center>
-										</div>
-										<div class="col-6 col-12-small">
-										<p>Create patient-specific models of vasculature using an intuitive and responsive user interface. Start with your image data by importing it to CRIMSON using one of a variety of supported formats or directly from your DICOM storage. Specify the approximate centerlines of the vessels in just a few clicks, use the <a href="#segmentation_toolbox">segmentation toolbox</a> to segment the vessel wall at multiple locations along the centerline and create the first 3D segmentation of one of the vessels using the most fitting lofting algorithm. Create the 3D segmentations for all the vessels of interest in the vessel tree and create a full 3D model through blending the individual vessels together. Create a 3D mesh and specify the simulation parameters and boundary conditions to prepare your patient-specific simulation for running on a supercomputer.</p>
-										</div>
-									</div>
-								</article>
-								<article class="box post">
-									<header class="style1">
-										<h2 id="segmentation_toolbox">Comprehensive Segmentation toolbox</h2>
-									</header>
-									<div class="row">
-										<div class="col-6 col-12-small">
-											<p>Depending on the complexity of the vessel wall, use the simple circles or ellipses or more sophisticated semi-automatic segmentation techniques, such as region growing, to segment the vessel wall in 2D slice perpendicular to the centrelines of the vessels. Enjoy the full support of undo/redo operations, live preview of the 3D segmentation results and separate threads for lengthy operations that keep CRIMSON UI intuitive and responsive.</p>
-										</div>
-										<div class="col-6 col-12-small">
-										<center>
-											<img src="images/segmentation.png" style="width:auto;max-width:50%" alt="" />
-										</center>
-										</div>
-									</div>
-								</article>
-								<article class="box post">
-									<header class="style1">
-										<h2 id="meshing_features">Advanced Meshing Features</h2>
-									</header>
-									<!-- <section class="feature-list small"> -->
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<center>
-													<img src="images/bc_toolbox.png" style="width:auto;max-width:100%" alt="" />
-												</center>
-											</div>
-											<div class="col-6 col-12-small">
-												<p>CRIMSON provides extremely powerful meshing tools allowing for endless flexibility to create the ideal mesh for each specific problem.</p>
-												<p>For example, CRIMSON provides the end user with a number of powerful meshing features ideally suited to vascular modelling such as boundary layer specification to increase the number of elements close to the vessel wall, curvature refinement to resolve the mesh in regions of high curvature, mesh propagation, to propagate surface mesh parameters into the volume, and a simple method of defining mesh properties locally, providing a remarkable level of mesh parameterization in a clean, simple to use and intuitive interface.</p>
-											</div>
-											
-											<div class="col-6 col-12-small">
-												<p>With the CRIMSON Mesh Exploration tool, the user can probe the mesh quickly and efficiently to explore the mesh volume and visually assess the mesh quality at any point in the domain.</p>
-											</div>
-											<div class="col-6 col-12-small">
-												<center>
-													<img src="images/mesh.png" style="width:auto;max-width:80%" alt="" />
-												</center>
-											</div>
-											<div class="col-6 col-12-small">
-											<center>
-												<img src="images/mesh_adapt.png" style="width:auto;max-width:100%" alt="" />
-											</center>
-											</div>
-											<div class="col-6 col-12-small">
-												<p>CRIMSON has mesh adaptation capabilities, allowing the user to use the results of an initial simulation to refine the mesh and increase element density in regions of high error.</p>
-											</div>
-										</div>
-									<!-- </section> -->
-								</article>
-								<article class="box post">
-									<header class="style1">
-										<h2 id="boundary_conditions">Graphical specification of boundary conditions</h2>
-									</header>
-									<div class="row">
-										<div class="col-6 col-12-small">
-										<center>
-											<img src="images/bc_toolbox.png" style="width:auto;max-width:80%" alt="" />
-										</center>
-										</div>
-										<div class="col-6 col-12-small">
-										<p>CRIMSON has a number of inbuilt boundary condition types, such as Windkessel RCRs, prescribed velocities, and user defined networks. Users can quickly and easily specify the boundary condition specific to each surface by simply selecting them interactively in the 3D display of your model and specifying the specific parameters. Parameters can be adjusted at any later stage. Initial conditions such as an initial pressure field or deformable walls can also be specified.</p>
-										</div>
-										<div class="col-6 col-12-small">
-										<p>As well as the powerful inbuilt tools available, boundary conditions for each simulation may be specified in CRIMSON's intuitive boundary condition toolbox; we call these Netlist boundary conditions. Users simply select and connect from a range of components to quickly create an arbitrary, user defined 0D network of any vascular tree model. Once applied, face selection will persist even if the network is later modified by adding or removing or editing components in the 0D model.</p>
-										</div>
-										<div class="col-6 col-12-small">
-										<center>
-											<img src="images/bc_toolbox_2.png" style="width:auto;max-width:80%" alt="" />
-										</center>
-										</div>
-									</div>
-								</article>
-								<article class="box post">
-									<header class="style1">
-										<h2 id="pcmri">Patient-specific velocity profiles from PC-MRI/Colour Doppler image data</h2>
-										</header>
-										<div class="row">
-											<div class="col-6 col-12-small">
-											<center>
-												<img src="images/pcmri.png" style="width:auto;max-width:100%" alt="" />
-											</center>
-											</div>
-											<div class="col-6 col-12-small">
-											<p>As well as allowing the imposition of idealised profiles such as parabolic, plug and Womersley, or 0D lumped parameter networks of the heart to generate an inflow profile, CRIMSON allows the use of patient-specific inlet and outlet velocity profiles automatically adapted from MRI images. CRIMSON allows you to tweak the degree of smoothing over time and space to impose a periodic velocity profiles at the boundary segment of choice and use the profile measured directly from the patient.</p>
-											<p>Methodological details will be provided in our upcoming article, Optimal B-spline Mapping of Flow Imaging Data for Imposing Patient-specific Velocity Profiles in Computational Hemodynamics, A. Gomez et al. IEEE TBME. We ask that you cite this article if you use the tool.</p>
-											</div>
-										</div>
-								</article>
-								<article class="box post">
-									<header class="style1">
-										<h2 id="postproc">Postprocessing</h2>
-										</header>
-										<div class="row">
-											<div class="col-6 col-12-small">
-											<p>CRIMSON has inbuilt visualization tools. Following a simulation, postprocessed results of the time step under examination can be loaded via the Solver Setup's Solution management interface. Any field stored in the results file can be visualized. The Mesh Exploration Tool allows the visualization at any point in the mesh.</p>
-											</div>
-											<div class="col-6 col-12-small">
-											<center>
-												<img src="images/postproc.png" style="width:auto;max-width:80%" alt="" />
-											</center>
-											</div>
-										</div>
-								</article>
-								<article class="box post">
-									<header class="style1">
-										<h2 id="custom_solver">Custom Solver Setup via the CRIMSON Python Interface</h2>
-										</header>
-										<div class="row">
-											<div class="col-6 col-12-small">
-											<center>
-												<img src="images/python_bolt.png" style="width:auto;max-width:100%" alt="" />
-											</center>
-											</div>
-											<div class="col-6 col-12-small">
-											<p>While CRIMSON comes with many powerful ready to use features it may sometimes be desirable to use your own custom solver. The inbuilt Python™ interface allows the generation of simulation files for custom physics solvers. The CRIMSON Solver setup extension guide describes in detail the steps to create your own Python™ based interface.</p>
-											</div>
-										</div>
-								</article>
-								<article class="box post">
-									<header class="style1">
-										<h2 id="ale">Arbitrary Lagrangian Eulerian (ALE) Methods</h2>
-										</header>
-										<div class="row">
-											<div class="col-6 col-12-small">
-											<p>In order to model vessel wall deformation when in the presence of pulsatile flow, boundary fitted Arbitrary Lagrangian Eulerian (ALE) methods are being incorporated into CRIMSON.  This re-meshing approach involves the use updating algorithms which revise the fluid Eulerian mesh so that node-on-node compatibility is maintained as the solid Lagrangian mesh deforms allowing the use of anisotropic, non-linear constitutive laws for the vessel wall. This is currently a feature under development and will be released in an upcoming version of CRIMSON.</p>
-											</div>
-											<div class="col-6 col-12-small">
-											<center>
-												<img src="images/ale.gif" style="width:auto;max-width:80%" alt="" />
-											</center>
-											</div>
-										</div>
-								</article>
+				<!-- Content -->
+				<div id="content">
+					<article class="box post">
+						<header class="style1">
+							<h2 id="gui_design">Modern GUI Design</h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/gui.png" style="width:auto;max-width:100%" alt="" />
+								</center>
 							</div>
-							
-
-					</div>
-					
-				</div>
-				<div id="software_details" class="wrapper style1">
-					<div class="title">Software Details</div>
-					<div class="container">
-						<div id="content">
-							<article class="box post">
-								<header class="style1">
-									<h2 id="ale">Software Ingredients</h2>
-								</header>
-									<ul>
-										<li>
-											<a href="http://mitk.org/wiki/MITK">MITK</a></br>
-											The overarching environment for loading and manipulating raw medical imaging data.
-										</li>
-										<li>
-											<a href="https://www.opencascade.com/">openCascade</a></br>
-											Solid modelling capabilities to represent the vessels after they have been segmented.
-										</li>
-										<li>
-											<a href="https://wias-berlin.de/software/tetgen/">Tetgen</a> or <a href="http://www.simmetrix.com/index.php/technologies/mesh-generation">MeshSim</a></br>
-											Generates tetrahedral volumetric meshes over the segmented solid models.
-										</li>
-										<li>
-											<a href="http://verdandi.sourceforge.net/">Verdandi</a></br>
-											Provides Data Assimilation capabilities for gaining maximum benefit from rich patient datasets.
-										</li>
-									</ul>
-									
-								<header class="style1">
-									<h2 id="ale">Upcoming Capabilities</h2>
-								</header>
-								<ul>
-									<li>Particle laden flows</li>
-								</ul>
-							</article>
+							<div class="col-6 col-12-small">
+								<p>Create patient-specific models of vasculature using an intuitive and responsive user interface. Start
+									with your image data by importing it to CRIMSON using one of a variety of supported formats or
+									directly from your DICOM storage. Specify the approximate centerlines of the vessels in just a few
+									clicks, use the <a href="#segmentation_toolbox">segmentation toolbox</a> to segment the vessel wall at
+									multiple locations along the centerline and create the first 3D segmentation of one of the vessels
+									using the most fitting lofting algorithm. Create the 3D segmentations for all the vessels of interest
+									in the vessel tree and create a full 3D model through blending the individual vessels together. Create
+									a 3D mesh and specify the simulation parameters and boundary conditions to prepare your
+									patient-specific simulation for running on a supercomputer.</p>
+							</div>
 						</div>
-					</div>
+					</article>
+					<article class="box post">
+						<header class="style1">
+							<h2 id="segmentation_toolbox">Comprehensive Segmentation toolbox</h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<p>Depending on the complexity of the vessel wall, use the simple circles or ellipses or more
+									sophisticated semi-automatic segmentation techniques, such as region growing, to segment the vessel
+									wall in 2D slice perpendicular to the centrelines of the vessels. Enjoy the full support of undo/redo
+									operations, live preview of the 3D segmentation results and separate threads for lengthy operations
+									that keep CRIMSON UI intuitive and responsive.</p>
+							</div>
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/segmentation.png" style="width:auto;max-width:50%" alt="" />
+								</center>
+							</div>
+						</div>
+					</article>
+					<article class="box post">
+						<header class="style1">
+							<h2 id="meshing_features">Advanced Meshing Features</h2>
+						</header>
+						<!-- <section class="feature-list small"> -->
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/bc_toolbox.png" style="width:auto;max-width:100%" alt="" />
+								</center>
+							</div>
+							<div class="col-6 col-12-small">
+								<p>CRIMSON provides extremely powerful meshing tools allowing for endless flexibility to create the
+									ideal mesh for each specific problem.</p>
+								<p>For example, CRIMSON provides the end user with a number of powerful meshing features ideally suited
+									to vascular modelling such as boundary layer specification to increase the number of elements close to
+									the vessel wall, curvature refinement to resolve the mesh in regions of high curvature, mesh
+									propagation, to propagate surface mesh parameters into the volume, and a simple method of defining
+									mesh properties locally, providing a remarkable level of mesh parameterization in a clean, simple to
+									use and intuitive interface.</p>
+							</div>
+
+							<div class="col-6 col-12-small">
+								<p>With the CRIMSON Mesh Exploration tool, the user can probe the mesh quickly and efficiently to
+									explore the mesh volume and visually assess the mesh quality at any point in the domain.</p>
+							</div>
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/mesh.png" style="width:auto;max-width:80%" alt="" />
+								</center>
+							</div>
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/mesh_adapt.png" style="width:auto;max-width:100%" alt="" />
+								</center>
+							</div>
+							<div class="col-6 col-12-small">
+								<p>CRIMSON has mesh adaptation capabilities, allowing the user to use the results of an initial
+									simulation to refine the mesh and increase element density in regions of high error.</p>
+							</div>
+						</div>
+						<!-- </section> -->
+					</article>
+					<article class="box post">
+						<header class="style1">
+							<h2 id="boundary_conditions">Graphical specification of boundary conditions</h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/bc_toolbox.png" style="width:auto;max-width:80%" alt="" />
+								</center>
+							</div>
+							<div class="col-6 col-12-small">
+								<p>CRIMSON has a number of inbuilt boundary condition types, such as Windkessel RCRs, prescribed
+									velocities, and user defined networks. Users can quickly and easily specify the boundary condition
+									specific to each surface by simply selecting them interactively in the 3D display of your model and
+									specifying the specific parameters. Parameters can be adjusted at any later stage. Initial conditions
+									such as an initial pressure field or deformable walls can also be specified.</p>
+							</div>
+							<div class="col-6 col-12-small">
+								<p>As well as the powerful inbuilt tools available, boundary conditions for each simulation may be
+									specified in CRIMSON's intuitive boundary condition toolbox; we call these Netlist boundary
+									conditions. Users simply select and connect from a range of components to quickly create an arbitrary,
+									user defined 0D network of any vascular tree model. Once applied, face selection will persist even if
+									the network is later modified by adding or removing or editing components in the 0D model.</p>
+							</div>
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/bc_toolbox_2.png" style="width:auto;max-width:80%" alt="" />
+								</center>
+							</div>
+						</div>
+					</article>
+					<article class="box post">
+						<header class="style1">
+							<h2 id="pcmri">Patient-specific velocity profiles from PC-MRI/Colour Doppler image data</h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/pcmri.png" style="width:auto;max-width:100%" alt="" />
+								</center>
+							</div>
+							<div class="col-6 col-12-small">
+								<p>As well as allowing the imposition of idealised profiles such as parabolic, plug and Womersley, or 0D
+									lumped parameter networks of the heart to generate an inflow profile, CRIMSON allows the use of
+									patient-specific inlet and outlet velocity profiles automatically adapted from MRI images. CRIMSON
+									allows you to tweak the degree of smoothing over time and space to impose a periodic velocity profiles
+									at the boundary segment of choice and use the profile measured directly from the patient.</p>
+								<p>Methodological details will be provided in our upcoming article, Optimal B-spline Mapping of Flow
+									Imaging Data for Imposing Patient-specific Velocity Profiles in Computational Hemodynamics, A. Gomez
+									et al. IEEE TBME. We ask that you cite this article if you use the tool.</p>
+							</div>
+						</div>
+					</article>
+					<article class="box post">
+						<header class="style1">
+							<h2 id="postproc">Postprocessing</h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<p>CRIMSON has inbuilt visualization tools. Following a simulation, postprocessed results of the time
+									step under examination can be loaded via the Solver Setup's Solution management interface. Any field
+									stored in the results file can be visualized. The Mesh Exploration Tool allows the visualization at
+									any point in the mesh.</p>
+							</div>
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/postproc.png" style="width:auto;max-width:80%" alt="" />
+								</center>
+							</div>
+						</div>
+					</article>
+					<article class="box post">
+						<header class="style1">
+							<h2 id="custom_solver">Custom Solver Setup via the CRIMSON Python Interface</h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/python_bolt.png" style="width:auto;max-width:100%" alt="" />
+								</center>
+							</div>
+							<div class="col-6 col-12-small">
+								<p>While CRIMSON comes with many powerful ready to use features it may sometimes be desirable to use
+									your own custom solver. The inbuilt Python™ interface allows the generation of simulation files for
+									custom physics solvers. The CRIMSON Solver setup extension guide describes in detail the steps to
+									create your own Python™ based interface.</p>
+							</div>
+						</div>
+					</article>
+					<article class="box post">
+						<header class="style1">
+							<h2 id="ale">Arbitrary Lagrangian Eulerian (ALE) Methods</h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-small">
+								<p>In order to model vessel wall deformation when in the presence of pulsatile flow, boundary fitted
+									Arbitrary Lagrangian Eulerian (ALE) methods are being incorporated into CRIMSON. This re-meshing
+									approach involves the use updating algorithms which revise the fluid Eulerian mesh so that
+									node-on-node compatibility is maintained as the solid Lagrangian mesh deforms allowing the use of
+									anisotropic, non-linear constitutive laws for the vessel wall. This is currently a feature under
+									development and will be released in an upcoming version of CRIMSON.</p>
+							</div>
+							<div class="col-6 col-12-small">
+								<center>
+									<img src="images/ale.gif" style="width:auto;max-width:80%" alt="" />
+								</center>
+							</div>
+						</div>
+					</article>
 				</div>
+
+
+			</div>
+
+		</div>
+		<div id="software_details" class="wrapper style1">
+			<div class="title">Software Details</div>
+			<div class="container">
+				<div id="content">
+					<article class="box post">
+						<header class="style1">
+							<h2 id="ale">Software Ingredients</h2>
+						</header>
+						<ul>
+							<li>
+								<a href="http://mitk.org/wiki/MITK">MITK</a></br>
+								The overarching environment for loading and manipulating raw medical imaging data.
+							</li>
+							<li>
+								<a href="https://www.opencascade.com/">openCascade</a></br>
+								Solid modelling capabilities to represent the vessels after they have been segmented.
+							</li>
+							<li>
+								<a href="https://wias-berlin.de/software/tetgen/">Tetgen</a> or <a
+									href="http://www.simmetrix.com/index.php/technologies/mesh-generation">MeshSim</a></br>
+								Generates tetrahedral volumetric meshes over the segmented solid models.
+							</li>
+							<li>
+								<a href="http://verdandi.sourceforge.net/">Verdandi</a></br>
+								Provides Data Assimilation capabilities for gaining maximum benefit from rich patient datasets.
+							</li>
+						</ul>
+
+						<header class="style1">
+							<h2 id="ale">Upcoming Capabilities</h2>
+						</header>
+						<ul>
+							<li>Particle laden flows</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</div>
 
 		<!-- Footer -->
 		<section id="footer" class="wrapper">
@@ -260,43 +323,49 @@
 					<div class="row">
 						<div class="col-6 col-12-small">
 							<section>
-							<p>
-								<h3 class="fab fa-twitter"><a href="https://twitter.com/CRIMSONsoftware" target="_blank">Twitter</a></h3>
-							<p>
-								<h3 class="fab fa-youtube"><a href="https://www.youtube.com/@crimsonsoftware1143" target="_blank">Youtube</a></h3>
-							</p>
+								<p>
+								<h3 class="fab fa-twitter"><a href="https://twitter.com/CRIMSONsoftware" target="_blank">Twitter</a>
+								</h3>
+								<p>
+								<h3 class="fab fa-youtube"><a href="https://www.youtube.com/@crimsonsoftware1143"
+										target="_blank">Youtube</a></h3>
+								</p>
 							</section>
 						</div>
-							<div class="col-6 col-12-small">
-								<section>
-							<p>
-								<h3 class="fab fa-github"><a href="https://github.com/CRIMSONCardiovascularModelling" target="_blank">Github</a></h3>
-							</p>
-							<p>
-								<h3 class="icon solid fa-envelope"><a href="mailto:figueroc@med.umich.edu?subject=Crimson Question" target="_blank" rel="noopener noreferrer">Email Us</h3>
-							</p>
+						<div class="col-6 col-12-small">
+							<section>
+								<p>
+								<h3 class="fab fa-github"><a href="https://github.com/CRIMSONCardiovascularModelling"
+										target="_blank">Github</a></h3>
+								</p>
+								<p>
+								<h3 class="icon solid fa-envelope"><a href="mailto:figueroc@med.umich.edu?subject=Crimson Question"
+										target="_blank" rel="noopener noreferrer">Email Us</h3>
+								</p>
 							</section>
 						</div>
 					</div>
 				</section>
-							
+
 				<div id="copyright">
 					<ul>
-						<li>&copy; CRIMSONsoftware 2024.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; CRIMSONsoftware 2024.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</div>
 		</section>
 
-		</div>
+	</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
